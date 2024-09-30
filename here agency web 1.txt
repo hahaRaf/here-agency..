@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Here Agency - Layanan Jasa Copywriting</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #282c34;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        section {
+            margin: 40px 0;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #282c34;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #007bff;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #282c34;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .service-box {
+            width: 30%;
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: left;
+        }
+
+        .service-box h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+
+        @media (max-width: 768px) {
+            .service-box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Here Agency</h1>
+        <p>Menyediakan Layanan Jasa Copywriting Profesional untuk Bisnis Anda</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Konten Utama -->
+    <main id="home">
+        <section>
+            <h2>Solusi Copywriting yang Efektif untuk Meningkatkan Penjualan Anda</h2>
+            <p>Here Agency berfokus pada pembuatan copywriting yang menarik dan berpengaruh untuk bisnis Anda. Kami membantu meningkatkan konversi melalui kata-kata yang menjual.</p>
+            <a href="#contact" class="cta-button">Hubungi Kami Sekarang</a>
+        </section>
+
+        <!-- Layanan -->
+        <section id="services">
+            <h2>Layanan Kami</h2>
+            <div class="services">
+                <div class="service-box">
+                    <h3>Copywriting Website</h3>
+                    <p>Kami membuat teks website yang menarik, informatif, dan mengubah pengunjung menjadi pelanggan.</p>
+                </div>
+                <div class="service-box">
+                    <h3>Copywriting Iklan</h3>
+                    <p>Meningkatkan efektivitas iklan Anda dengan copywriting yang menjual di platform online maupun offline.</p>
+                </div>
+                <div class="service-box">
+                    <h3>Email Marketing</h3>
+                    <p>Optimalkan kampanye email Anda dengan teks yang memancing respons pelanggan dan meningkatkan konversi.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontak -->
+        <section id="contact">
+            <h2>Kontak Kami</h2>
+            <p>Untuk informasi lebih lanjut mengenai layanan kami, hubungi kami di:</p>
+            <p>Email: <a href="mailto:info@hereagency.com">info@hereagency.com</a></p>
+            <p>Telepon: +62 812-3456-7890</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Here Agency. Semua Hak Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
